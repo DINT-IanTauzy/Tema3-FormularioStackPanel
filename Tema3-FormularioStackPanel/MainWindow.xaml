@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
         mc:Ignorable="d"
-        Title="Formulario StackPanel" Height="336.742" Width="823.259" Icon="form_85828.ico">
+        Title="Formulario StackPanel" Height="379.214" Width="898.09" Icon="form_85828.ico">
     <StackPanel Margin="0,0,2,0">
         <StackPanel Margin="10px">
             <StackPanel.Background>
@@ -14,7 +14,7 @@
                     <GradientStop Color="#FF028142" Offset="0.1"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="18">Nombre</Label>
+            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="16">Nombre</Label>
             <TextBox Margin="5px, 0px,5px,10px"></TextBox>
         </StackPanel>
         <StackPanel Margin="10px">
@@ -24,7 +24,7 @@
                     <GradientStop Color="White" Offset="1"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="18">Direccion</Label>
+            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="16">Direccion</Label>
             <TextBox Margin="5px, 0px,5px,10px"></TextBox>
         </StackPanel>
         <StackPanel Margin="10px">
@@ -34,13 +34,15 @@
                     <GradientStop Color="#FFFBFBFB" Offset="0.983"/>
                 </LinearGradientBrush>
             </StackPanel.Background>
-            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="18">Correo electronico</Label>
+            <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="16">Correo electronico</Label>
             <TextBox Margin="5px, 0px,5px,10px"></TextBox>
         </StackPanel>
-        <WrapPanel HorizontalAlignment="Right" VerticalAlignment="Bottom">
-            <Button Margin="5px,10px" Width="90">Aceptar</Button>
-            <Button Margin="5px,10px" Width="90">Cancelar</Button>
-        </WrapPanel>
+        <StackPanel HorizontalAlignment="Right"  VerticalAlignment="Bottom" >
+            <Button Margin="5px,10px" Width="100">Aceptar</Button>
+            <Button Margin="5px,10px" Width="100">Cancelar</Button>
+        </StackPanel>
+        
+
 
 
 
