@@ -37,10 +37,10 @@
             <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="16">Correo electronico</Label>
             <TextBox Margin="5px, 0px,5px,10px"></TextBox>
         </StackPanel>
-        <StackPanel HorizontalAlignment="Right"  VerticalAlignment="Bottom">
+        <WrapPanel HorizontalAlignment="Right"  VerticalAlignment="Bottom">
             <Button Margin="5px,10px" Width="100">Aceptar</Button>
             <Button Margin="5px,10px" Width="100">Cancelar</Button>
-        </StackPanel>
+        </WrapPanel>
 
     </StackPanel>
 </Window>
