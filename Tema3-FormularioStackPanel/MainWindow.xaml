@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tema3_FormularioStackPanel"
         mc:Ignorable="d"
-        Title="Formulario StackPanel" Height="379.214" Width="898.09" Icon="form_85828.ico">
-    <StackPanel Margin="0,0,2,0">
+        Title="Formulario StackPanel" Height="379.214" MinWidth="400" Icon="form_85828.ico">
+    <StackPanel>
         <StackPanel Margin="10px">
             <StackPanel.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -35,12 +35,12 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             <Label Margin="5px, 5px ,5px, 0px" FontWeight="Bold" FontSize="16">Correo electronico</Label>
-            <TextBox Margin="5px, 0px,5px,10px"></TextBox>
+            <TextBox Margin="5px, 0px,5px,10px" Width="600" HorizontalAlignment="Left"></TextBox>
         </StackPanel>
-        <WrapPanel HorizontalAlignment="Right"  VerticalAlignment="Bottom">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Margin="5px,10px" Width="100">Aceptar</Button>
             <Button Margin="5px,10px" Width="100">Cancelar</Button>
-        </WrapPanel>
+        </StackPanel>
 
     </StackPanel>
 </Window>
